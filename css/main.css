@@ -1,0 +1,47 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ .main {
+    grid-area: main;
+    background-color: white;
+}
+ 
+ .linknav , .contact{
+    padding-top: 20px;
+      display: flex;
+      gap: 50px;
+
+ }    
+ .into {
+    height: 15vh;
+    color: #080808;
+
+    flex-direction: column;
+ }
+.into , .contact , .linknav , .islamPic , .footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.islamPic{
+    padding-top: 20px;
+}
+
+.photo1{
+    width: 150px;
+    height: 150px;
+    border: #f3f4f6;
+    border-radius: 50%;
+    border-style: solid;
+}
+footer{
+    width: 100%;
+   height: 50px;
+    flex-direction: row;
+    grid-area: ft;
+    gap: 30px;
+    background-color: #d5bdaf;
+}

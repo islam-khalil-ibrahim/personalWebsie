@@ -1,0 +1,16 @@
+h1{
+    color: rgb(26, 26, 34);
+    
+}
+h2 ,strong{
+    color: blue;
+    
+}
+a {
+    text-decoration: none;
+    color: rgb(18, 13, 49);
+    font-weight: bold;
+}
+ul{
+    list-style: none;
+  }

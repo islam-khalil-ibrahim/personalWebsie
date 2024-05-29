@@ -1,0 +1,42 @@
+
+.contener {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 30px;
+
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    background-color: #d5bdaf;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    /* padding: 25px; */
+    gap: 30px;
+}
+
+button {
+    width: 200px;
+    height: 30px;
+    background-color: white;
+    border: none;
+}
+
+input {
+    height: 30px;
+    width: 260px;
+}
+
+textarea,
+input {
+    border: aliceblue;
+
+}

@@ -1,0 +1,94 @@
+   
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    body {
+        font-size: .84rem;
+        color: #000;
+        line-height: 1.71;
+        font-family: Santral W01;
+        font-weight: bold;
+        font-style: normal;
+    }
+    .contener {
+
+        display: grid;
+        grid-template-columns: 200px 200px;
+        grid-template-rows: 750px 1200px ;
+        grid-template-areas:
+            "sd main main main main"
+            "ft ft ft ft ft";
+
+    }
+footer{grid-area: ft;}
+    .SidPar {
+        grid-area: sd;
+        background-color: #d5bdaf;
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+        border: 1px solid white;
+        height: 570px;
+    }
+    
+    .SidParBottom {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+    }
+
+    .nestedgrid {
+
+        display: grid;
+        grid-template-columns: 400px 400px ;
+        grid-template-rows: 400px 400px 400px 400px ;
+        gap: 50px;
+        padding-top: 40px;
+        padding-left: 80px;
+
+
+    }
+
+    .photoBox {
+        width: 350px;
+        height: 350px;
+        border: #f3f4f6;
+        border-radius: 5%;
+        border-style: solid;
+    }
+    .card {
+
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+        height: 400px;
+        background-color: #edede9;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        padding: 25px;
+    }
+
+    .card:hover {
+        cursor: pointer;
+        transform: translateY(-10px) scale(1.02);
+    }
+    a {
+        text-decoration: none;
+        color: rgb(18, 13, 49);
+        font-weight: bold;
+    }
+    footer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        grid-area: ft;
+        background-color: #d5bdaf;
+    }
+
+/* } */
