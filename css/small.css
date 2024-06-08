@@ -15,7 +15,7 @@
 
         display: grid;
         grid-template-columns: 430px;
-        grid-template-rows: 100px 100px 2600px 100px;
+        grid-template-rows: 100px 100px 2700px 100px;
         grid-template-areas:
             "sd "
             "main"
